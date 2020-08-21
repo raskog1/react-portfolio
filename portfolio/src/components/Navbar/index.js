@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 function Navbar() {
@@ -52,19 +53,19 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="collapsibleNavbar">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="resume.html">
+              <Link to="/resume" className="nav-link">
                 Resume
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="portfolio.html">
+              <Link to="/projects" className="nav-link">
                 Projects
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="contact.html">
+              <Link to="/contact" className="nav-link">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

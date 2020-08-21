@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 
+// Need to only populate contributors if there are any
+
 function ProjectCard(props) {
   function contributors(arr) {
     let formatContributors = [];
@@ -25,6 +27,7 @@ function ProjectCard(props) {
               <strong>{props.project.name}</strong>
             </h4>
             <p className="description">{props.project.description}</p>
+
             <p className="contributors">
               Contributors: {contributors(props.project.contributors)}
             </p>

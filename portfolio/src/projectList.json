@@ -106,7 +106,7 @@
     "alt": "Map of Sacramento",
     "github": "https://github.com/raskog1/HappyHour",
     "description": "Everyone will need a drink coming out of quarantine, using jQuery, this app will lead you to the nearest watering hole or taco truck with the MapBox and Zomato API's.",
-    "contributors": "",
+    "contributors": ["Scott Glover", "Rajnil Prasad"],
     "featured": true
   }
 ]
