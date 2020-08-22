@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.css";
 
-// Need to only populate contributors if there are any
-
+// Function to format Contributors with commas
 function ProjectCard(props) {
   function contributors(arr) {
     let formatContributors = [];
@@ -11,6 +10,17 @@ function ProjectCard(props) {
     }
     formatContributors.push(arr[arr.length - 1]);
     return formatContributors;
+  }
+
+  // Function to only display Contributors if there are any
+  function hideEmpty() {
+    if (props.project.contributors) {
+      return (
+        <p className="contributors">
+          Contributors: {contributors(props.project.contributors)}
+        </p>
+      );
+    }
   }
 
   return (
@@ -27,10 +37,7 @@ function ProjectCard(props) {
               <strong>{props.project.name}</strong>
             </h4>
             <p className="description">{props.project.description}</p>
-
-            <p className="contributors">
-              Contributors: {contributors(props.project.contributors)}
-            </p>
+            {hideEmpty()}
           </div>
         </div>
       </a>
