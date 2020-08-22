@@ -5,11 +5,15 @@
 }
 
 body {
-  padding-bottom: 60px;
-  background-image: url("./sand.jpg");
+  background-image: url("./assets/sand.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   /* Photo by Anchor Lee on Unsplash */
+}
+
+#root {
+  padding-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 /*Featured Projects Header*/
@@ -47,6 +51,16 @@ aside ul li {
 footer {
   text-align: center;
   background-color: #17a2b8;
+}
+
+.resume-container {
+  position: relative;
+  overflow: hidden;
+
+
+ 
+  width: 100%;
+  height: 1200px;
 }
 
 @media only screen and (max-width: 640px) {

@@ -11,21 +11,19 @@ import Contact from "./pages/contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-class App extends React.Component {
-  render() {
-    return (
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route exact path="/" component={Main} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
-        <Footer />
-      </Router>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Main} />
+        <Route path="/resume" component={Resume} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
+      <Footer />
+    </Router>
+  );
 }
 
 export default App;

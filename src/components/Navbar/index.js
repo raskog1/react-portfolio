@@ -5,7 +5,9 @@ import "./style.css";
 function Navbar() {
   return (
     <header className="bg-dark">
-      <h1 className="text-info">Ryan Skog</h1>
+      <Link to="/">
+        <h1>Ryan Skog</h1>
+      </Link>
 
       <nav className="navbar navbar-expand-md bg-dark navbar-dark">
         {/* LinkedIn Icon */}

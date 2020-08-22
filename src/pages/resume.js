@@ -1,15 +1,14 @@
 import React from "react";
+import currentResume from "../pdf/Skog-Resume.pdf";
 
-function Resume() {
-  return (
-    <div className="resume-container">
-      <iframe
-        src="../../public/assets/Skog-Resume.pdf"
-        width="100%"
-        height="900px"
-      />
-    </div>
-  );
+class Resume extends React.Component {
+  render() {
+    return (
+      <div>
+        {currentResume && <iframe src={currentResume} className="resume-container" title="Ryan Skog Resume" />}
+      </div>
+    );
+  }
 }
 
 export default Resume;

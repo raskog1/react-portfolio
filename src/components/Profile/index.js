@@ -6,7 +6,7 @@ function Profile() {
     <div className="row">
       <div className="col-lg-12">
         <img
-          src="assets/Images/trophy.png"
+          src="/assets/Images/trophy.png"
           className="floatLeft"
           alt="Ryan Skog"
           width="250px"
