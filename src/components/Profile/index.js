@@ -12,7 +12,7 @@ function Profile() {
           width="250px"
           height="250px"
         />
-        <p className="text-dark">
+        <p className="text-dark statement">
           I am a Front-end Web Developer with a Bachelor’s Degree in Art from
           the University of Wisconsin. I also bring graduate training with focus
           in animation and visual effects. I am combining my strengths in art
