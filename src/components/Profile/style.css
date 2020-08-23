@@ -1,14 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
 .floatLeft {
   float: left;
   margin-right: 25px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8), 0 6px 6px rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: -300px;
+}
+
+.slider3 {
+  -webkit-animation: slideTop 1s forwards;
+  -webkit-animation-delay: 1.2s;
+  animation: slideTop 1s forwards;
+  animation-delay: 1.2s;
 }
 
 .statement {
   padding-top: 5px;
   padding-left: 5px;
+}
+
+@-webkit-keyframes slideTop {
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes slideTop {
+  100% {
+    top: 0;
+  }
 }
 
 @media only screen and (max-width: 640px) {

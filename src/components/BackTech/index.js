@@ -1,10 +1,11 @@
 import React from "react";
+import "../FrontTech/style.css";
 
 function BackEnd() {
   return (
-    <div>
+    <div className="wrapper">
       <h5>Back End Aptitude:</h5>
-      <div className="skills">
+      <div className="skills slider2">
         <ul>
           <li>Node</li>
           <li>Express</li>

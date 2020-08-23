@@ -1,10 +1,11 @@
 import React from "react";
+import "./style.css";
 
 function FrontEnd() {
   return (
-    <div>
+    <div className="wrapper">
       <h5>Front End Aptitude:</h5>
-      <div className="skills">
+      <div className="skills slider1">
         <ul>
           <li>HTML5</li>
           <li>CSS3 with Bootstrap4</li>

@@ -24,7 +24,7 @@ function ProjectCard(props) {
   }
 
   return (
-    <div className="col-12">
+    <div className="col-12 slider4">
       <a href={props.project.link} rel="noopener noreferrer" target="_blank">
         <div className="card text-center">
           <img
