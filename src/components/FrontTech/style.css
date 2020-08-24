@@ -15,7 +15,6 @@
 .skills {
   margin-bottom: 30px;
   background-color: #17a2b8;
-  /* border: 0px solid; */
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8), 0 6px 6px rgba(0, 0, 0, 0.5);
@@ -26,7 +25,7 @@
   left: 2100px;
 }
 
-.slider1 {
+#slider1 {
   -webkit-animation: slideIn 1.5s forwards;
   -webkit-animation-delay: 1.2s;
   animation: slideIn 1.5s forwards;
@@ -34,7 +33,7 @@
   animation-timing-function: ease-out;
 }
 
-.slider2 {
+#slider2 {
   -webkit-animation: slideIn 1.5s forwards;
   -webkit-animation-delay: 1.5s;
   animation: slideIn 1.5s forwards;
@@ -51,5 +50,11 @@
 @keyframes slideIn {
   100% {
     left: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .skills {
+    margin-left: 5%;
   }
 }

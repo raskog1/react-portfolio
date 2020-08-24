@@ -1,5 +1,6 @@
 import React from "react";
 import CodingLink from "../CodingLink";
+import "./style.css";
 
 function CodingLinkSection(props) {
   return (

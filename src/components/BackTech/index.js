@@ -5,12 +5,12 @@ function BackEnd() {
   return (
     <div className="wrapper">
       <h5>Back End Aptitude:</h5>
-      <div className="skills slider2">
+      <div className="skills" id="slider2">
         <ul>
           <li>Node</li>
           <li>Express</li>
-          <li>mySQL and Sequelize</li>
-          <li>mongoDB and Mongoose</li>
+          <li>mySQL / Sequelize</li>
+          <li>mongoDB / Mongoose</li>
         </ul>
       </div>
     </div>

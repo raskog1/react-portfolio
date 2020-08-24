@@ -54,12 +54,6 @@ li {
   margin-top: 70px;
 }
 
-.link-section li {
-  margin-bottom: 40px;
-  margin-left: 20px;
-  list-style: none;
-}
-
 /*Overrides BS4 link hover color in aside*/
 .orangeHover:hover {
   color: #ff9933;

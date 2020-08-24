@@ -18,7 +18,7 @@ function Contact() {
 
       <form action="#">
         <div className="form-group">
-          <label for="firstName">First Name:</label>
+          <label htmlFor="firstName">First Name:</label>
           <input
             type="firstName"
             className="form-control"
@@ -28,7 +28,7 @@ function Contact() {
         </div>
 
         <div className="form-group">
-          <label for="lastName">Last Name:</label>
+          <label htmlFor="lastName">Last Name:</label>
           <input
             type="lastName"
             className="form-control"
@@ -38,7 +38,7 @@ function Contact() {
         </div>
 
         <div className="form-group">
-          <label for="email">Email:</label>
+          <label htmlFor="email">Email:</label>
           <input
             type="email"
             className="form-control"
@@ -48,7 +48,7 @@ function Contact() {
         </div>
 
         <div className="form-group">
-          <label for="message">Message:</label>
+          <label htmlFor="message">Message:</label>
           <textarea className="form-control" rows="5" id="message" />
         </div>
         <br />

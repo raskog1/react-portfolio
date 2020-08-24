@@ -5,15 +5,13 @@ function Profile() {
   return (
     <div className="row">
       <div className="col-lg-12 profile-wrapper">
-        <div className="slider3 floatLeft">
-          <img
-            src="/assets/Images/trophy.png"
-            className=""
-            alt="Ryan Skog"
-            width="250px"
-            height="250px"
-          />
-        </div>
+        <img
+          src="/assets/Images/trophy.png"
+          className="profile-image slider3"
+          alt="Ryan Skog"
+          width="250px"
+          height="250px"
+        />
         <p className="text-dark statement">
           I am a Front-end Web Developer with a Bachelor’s Degree in Art from
           the University of Wisconsin. I also bring graduate training with focus
