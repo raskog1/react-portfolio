@@ -25,22 +25,30 @@ function ProjectCard(props) {
 
   return (
     <div className="col-12 slider4">
-      <a href={props.project.link} rel="noopener noreferrer" target="_blank">
-        <div className="card text-center">
+      <div className="card text-center">
+        <a href={props.project.link} rel="noopener noreferrer" target="_blank">
           <img
             className="card-image"
             src={props.project.image}
             alt={props.project.alt}
           />
-          <div className="card-img-overlay">
-            <h4 className="card-title">
-              <strong>{props.project.name}</strong>
-            </h4>
-            <p className="description">{props.project.description}</p>
-            {hideEmpty()}
-          </div>
+        </a>
+        <div className="card-img-overlay">
+          <h4 className="card-title">
+            <strong>{props.project.name}</strong>
+          </h4>
+          <p className="description">{props.project.description}</p>
+          {hideEmpty()}
+          <a
+            href={props.project.github}
+            className="github orangeHover"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Github Repository
+          </a>
         </div>
-      </a>
+      </div>
     </div>
   );
 }

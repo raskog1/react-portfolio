@@ -17,7 +17,7 @@
     "image": "../assets/Images/Rain.jpg",
     "alt": "Child's drawing of rain cloud",
     "github": "https://github.com/raskog1/weather-app",
-    "description": "Get your weather information from a child in a web app featuring drawings by Juniper. Built with the AllWeather API and jQuery, and utilizing Local Storage.",
+    "description": "Get your weather information from a child in a web application featuring drawings by Juniper. Built with the AllWeather API and jQuery, and utilizing Local Storage.",
     "contributors": "",
     "featured": true
   },
@@ -105,7 +105,7 @@
     "image": "../assets/Images/quarantineMap.png",
     "alt": "Map of Sacramento",
     "github": "https://github.com/raskog1/HappyHour",
-    "description": "Everyone will need a drink coming out of quarantine, using jQuery, this app will lead you to the nearest watering hole or taco truck with the MapBox and Zomato API's.",
+    "description": "Need a drink coming out of quarantine? Using jQuery, this app will lead you to the nearest watering hole or taco truck with the MapBox and Zomato API's.",
     "contributors": ["Scott Glover", "Rajnil Prasad"],
     "featured": true
   }
