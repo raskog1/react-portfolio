@@ -50,4 +50,9 @@
     width: 150px;
     height: 150px;
   }
+
+  .slider3 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+  }
 }

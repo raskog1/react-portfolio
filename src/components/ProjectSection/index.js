@@ -14,7 +14,7 @@ function ProjectSection(props) {
   return (
     <React.Fragment>
       {shuffle(props.projects).map((project) => (
-        <ProjectCard project={project} key={project.id} />
+        <ProjectCard project={project} key={project.id} slider={props.slider} />
       ))}
     </React.Fragment>
   );

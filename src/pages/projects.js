@@ -7,7 +7,7 @@ function Projects() {
     <div className="container">
       <section className="projects">
         <h2 className="text-dark">Project Library</h2>
-        <ProjectSection projects={projectList} />
+        <ProjectSection projects={projectList} slider="" />
       </section>
     </div>
   );

@@ -23,7 +23,7 @@ function Main() {
           {/* Projects section */}
           <section className="projects">
             <h2 className="text-dark">Featured Projects</h2>
-            <ProjectSection projects={featured} />
+            <ProjectSection projects={featured} slider="slider4" />
           </section>
         </div>
 
