@@ -5,6 +5,10 @@ This is my professional portfolio that was converted from a simple HTML/CSS desi
 
 My portfolio is fully responsive and can be viewed on just about any mobile device.
 
+## Installation
+
+Deployed portfolio: https://ryanskog.netlify.app/
+
 ## Programs Used in Development
 This portfolio was created with React.js, with fine-tuning using CSS3 and Bootstrap4.
 
