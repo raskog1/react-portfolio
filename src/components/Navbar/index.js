@@ -17,11 +17,12 @@ function Navbar() {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <img
+          <i className="fa fa-linkedin fa-2x" aria-hidden="true" />
+          {/* <img
             src="assets/Icons/LI-In-Bug.png"
             height="30px"
             alt="LinkedIn icon"
-          />
+          /> */}
         </a>
 
         {/* Github Icon */}
@@ -31,11 +32,12 @@ function Navbar() {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <img
+          <i className="fa fa-github fa-2x" aria-hidden="true" />
+          {/* <img
             src="assets/Icons/GitHub-Mark-120px-plus.png"
             height="30px"
             alt="Github icon"
-          />
+          /> */}
         </a>
 
         {/* Toggler/collapsibe Button */}

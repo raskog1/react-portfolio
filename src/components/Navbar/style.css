@@ -6,8 +6,10 @@ header h1 {
   font-family: "Quicksand", sans-serif;
 }
 
-header h1:hover {
+header h1:hover,
+i:hover {
   color: #ff9933;
+  text-shadow: 0 0 3px #ffee10;
 }
 
 .navbar {
@@ -19,7 +21,7 @@ header h1:hover {
 }
 
 .header-icons {
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 @media only screen and (max-width: 640px) {
@@ -32,7 +34,7 @@ header h1:hover {
 
   header h1 {
     line-height: 58px;
-    font-size: 24px;
+    font-size: 32px;
   }
 
   .header-icons {
