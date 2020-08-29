@@ -13,5 +13,3 @@ function CodingLinkSection(props) {
 }
 
 export default CodingLinkSection;
-
-// Why won't this code run in main.js?

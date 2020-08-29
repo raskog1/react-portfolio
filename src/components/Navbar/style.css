@@ -41,3 +41,18 @@ i:hover {
     padding-right: 8px;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  header h1 {
+    font-size: 26px;
+  }
+
+  .header-icons {
+    transform: scale(0.8);
+    margin-right: 5px;
+  }
+
+  .navbar {
+    padding: 8px 5px;
+  }
+}
