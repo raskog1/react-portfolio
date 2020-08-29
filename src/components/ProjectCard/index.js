@@ -2,7 +2,10 @@ import React from "react";
 import "./style.css";
 
 // Function to format Contributors with commas
-function ProjectCard(props) {
+function ProjectCard({
+  project: { contributors, link, alt, image, name, github, description },
+  slider,
+}) {
   function contributors(arr) {
     let formatContributors = [];
     for (let i = 0; i < arr.length - 1; i++) {
@@ -14,33 +17,29 @@ function ProjectCard(props) {
 
   // Function to only display Contributors if there are any
   function hideEmpty() {
-    if (props.project.contributors) {
+    if (contributors) {
       return (
         <p className="contributors">
-          Contributors: {contributors(props.project.contributors)}
+          Contributors: {contributors(contributors)}
         </p>
       );
     }
   }
 
   return (
-    <div className="col-12" className={props.slider}>
+    <div className="col-12" className={slider}>
       <div className="card text-center">
-        <a href={props.project.link} rel="noopener noreferrer" target="_blank">
-          <img
-            className="card-image"
-            src={props.project.image}
-            alt={props.project.alt}
-          />
+        <a href={link} rel="noopener noreferrer" target="_blank">
+          <img className="card-image" src={image} alt={alt} />
         </a>
         <div className="card-img-overlay">
           <h4 className="card-title">
-            <strong>{props.project.name}</strong>
+            <strong>{name}</strong>
           </h4>
-          <p className="description">{props.project.description}</p>
+          <p className="description">{description}</p>
           {hideEmpty()}
           <a
-            href={props.project.github}
+            href={github}
             className="github orangeHover"
             rel="noopener noreferrer"
             target="_blank"

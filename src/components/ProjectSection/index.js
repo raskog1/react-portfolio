@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "../ProjectCard";
 
-function ProjectSection(props) {
+function ProjectSection({ projects, slider }) {
   // Shuffle projects
   function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -13,8 +13,8 @@ function ProjectSection(props) {
 
   return (
     <React.Fragment>
-      {shuffle(props.projects).map((project) => (
-        <ProjectCard project={project} key={project.id} slider={props.slider} />
+      {shuffle(projects).map((project) => (
+        <ProjectCard {...{ project, slider }} key={project.id} />
       ))}
     </React.Fragment>
   );
