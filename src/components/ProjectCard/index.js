@@ -6,7 +6,7 @@ function ProjectCard({
   project: { contributors, link, alt, image, name, github, description },
   slider,
 }) {
-  function contributors(arr) {
+  function listContributors(arr) {
     let formatContributors = [];
     for (let i = 0; i < arr.length - 1; i++) {
       formatContributors.push(`${arr[i]}, `);
@@ -17,10 +17,10 @@ function ProjectCard({
 
   // Function to only display Contributors if there are any
   function hideEmpty() {
-    if (contributors) {
+    if (contributors.length > 0) {
       return (
         <p className="contributors">
-          Contributors: {contributors(contributors)}
+          Contributors: {listContributors(contributors)}
         </p>
       );
     }

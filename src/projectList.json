@@ -7,11 +7,7 @@
     "alt": "Cassette Tape",
     "github": "https://github.com/raskog1/2PLAY",
     "description": "A playlist making app for you and your copilot, powered by Spotify, and built using mySQL, Handlebars, jQuery, Express, and Node.js.",
-    "contributors": [
-      "Alexandra Noto",
-      "Anthony Simone",
-      "Scott Glover"
-    ],
+    "contributors": ["Alexandra Noto", "Anthony Simone", "Scott Glover"],
     "featured": true
   },
   {
@@ -22,8 +18,8 @@
     "alt": "Child's drawing of rain cloud",
     "github": "https://github.com/raskog1/weather-app",
     "description": "Get your weather information from a child in a web application featuring drawings by Juniper. Built with the AllWeather API and jQuery, and utilizing Local Storage.",
-    "contributors": "",
-    "featured": true
+    "contributors": [],
+    "featured": false
   },
   {
     "id": 3,
@@ -33,7 +29,7 @@
     "alt": "Blue hex pattern",
     "github": "https://github.com/raskog1/code-quiz",
     "description": "Test your coding knowledge with this quick coding quiz covering elements from HTML, CSS, and JavaScript. Check your high score on the leaderboard.",
-    "contributors": "",
+    "contributors": [],
     "featured": false
   },
   {
@@ -44,7 +40,7 @@
     "alt": "Stick figure hangman",
     "github": "https://github.com/raskog1/hangman",
     "description": "Welcome to the wild wild west, where justice is decided by a bizarre game of hangman from the future.  Criterion Films make up over 200 puzzles in this hangman depiction using HTML and pure javaScript",
-    "contributors": "",
+    "contributors": [],
     "featured": false
   },
   {
@@ -55,7 +51,7 @@
     "alt": "Burger neon sign",
     "github": "https://github.com/raskog1/burger",
     "description": "Bob's Burgers comes to life in this playful app where you can devour, regurgitate, and create your own Burger Specials. This application was an exercise using Handlebars and mySQL.",
-    "contributors": "",
+    "contributors": [],
     "featured": false
   },
   {
@@ -66,7 +62,7 @@
     "alt": "Dayplanner",
     "github": "https://github.com/raskog1/dayplanner",
     "description": "Keep track of your daily appointments in style, utilizing local storage in your browser.",
-    "contributors": "",
+    "contributors": [],
     "featured": false
   },
   {
@@ -77,7 +73,7 @@
     "alt": "Ahriman Mount",
     "github": "https://github.com/raskog1/mount-tracker",
     "description": "Browse, sort, and view your favorite FFXIV Mounts in this simple React application, click on any mount to obtain more information through ffxivcollect.com",
-    "contributors": "",
+    "contributors": [],
     "featured": false
   },
   {
@@ -88,7 +84,7 @@
     "alt": "Pie chart",
     "github": "https://github.com/raskog1/workout-tracker",
     "description": "Workout logging is hard, but not with this app utilizing mongoDB and Mongoose to store, retrieve, and compile results. Weekly charts creatively display your results and help you analyze your next move.",
-    "contributors": "",
+    "contributors": [],
     "featured": false
   },
   {
@@ -99,7 +95,7 @@
     "alt": "Line chart",
     "github": "https://github.com/raskog1/offline-budget-tracker",
     "description": "No need to sweat your budget when travelling, this handy app works on or offline using service workers, indexDB, and caching to provide peace of mind.",
-    "contributors": "",
+    "contributors": [],
     "featured": false
   },
   {
@@ -110,10 +106,29 @@
     "alt": "Map of Sacramento",
     "github": "https://github.com/raskog1/HappyHour",
     "description": "Need a drink coming out of quarantine? Using jQuery, this app will lead you to the nearest watering hole or taco truck with the MapBox and Zomato API's.",
-    "contributors": [
-      "Scott Glover",
-      "Rajnil Prasad"
-    ],
+    "contributors": ["Scott Glover", "Rajnil Prasad"],
+    "featured": false
+  },
+  {
+    "id": 11,
+    "name": "Study Check",
+    "link": "https://whispering-wave-08887.herokuapp.com/",
+    "image": "../assets/Images/study.png",
+    "alt": "Graduation Cap",
+    "github": "https://github.com/raskog1/study-check",
+    "description": "Every school needs a central hub of communication where information can reliably be delivered. Study Check is a full MERN application that solves this issue for everyone.",
+    "contributors": ["Alexandra Noto", "Anthony Simone", "Scott Glover"],
+    "featured": true
+  },
+  {
+    "id": 12,
+    "name": "Your Personal Bookshelf",
+    "link": "https://your-personal-bookshelf.herokuapp.com/",
+    "image": "../assets/Images/bookshelf.png",
+    "alt": "Books on a shelf",
+    "github": "https://github.com/raskog1/book-search",
+    "description": "Create your own bookshelf of titles you want to keep track of, or create an orderly backlist of titles to read. This MERN application will do the organization, all you have to do is search and add.",
+    "contributors": [],
     "featured": true
   }
 ]
