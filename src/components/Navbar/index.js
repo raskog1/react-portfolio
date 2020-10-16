@@ -3,32 +3,22 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 function Navbar() {
+  const Name = () => {
+    if (window.location.pathname === "/") {
+      return <h1>Ryan Skog</h1>;
+    } else {
+      return (
+        <Link to="/">
+          <h1 className="name-hover">Ryan Skog</h1>
+        </Link>
+      );
+    }
+  };
+
   return (
     <header className="bg-dark">
-      <Link to="/">
-        <h1>Ryan Skog</h1>
-      </Link>
-
       <nav className="navbar navbar-expand-md bg-dark navbar-dark">
-        {/* LinkedIn Icon */}
-        <a
-          className="header-icons"
-          href="https://www.linkedin.com/in/ryan-skog-b4b6411aa/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <i className="fa fa-linkedin fa-2x" aria-hidden="true" />
-        </a>
-
-        {/* Github Icon */}
-        <a
-          className="header-icons"
-          href="https://github.com/raskog1"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <i className="fa fa-github fa-2x" aria-hidden="true" />
-        </a>
+        <Name />
 
         {/* Toggler/collapsibe Button */}
         <button
@@ -46,6 +36,30 @@ function Navbar() {
         {/* Navbar links */}
         <div className="collapse navbar-collapse" id="collapsibleNavbar">
           <ul className="navbar-nav">
+            {/* LinkedIn Icon */}
+            <li>
+              <a
+                className="header-icons"
+                href="https://www.linkedin.com/in/ryan-skog-b4b6411aa/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fa fa-linkedin fa-2x" aria-hidden="true" />
+              </a>
+            </li>
+
+            {/* Github Icon */}
+            <li>
+              <a
+                className="header-icons"
+                href="https://github.com/raskog1"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fa fa-github fa-2x" aria-hidden="true" />
+              </a>
+            </li>
+
             <li className="nav-item">
               <Link to="/resume" className="nav-link">
                 Resume

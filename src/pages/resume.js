@@ -1,18 +1,22 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 import currentResume from "../pdf/resume.pdf";
 
 class Resume extends React.Component {
   render() {
     return (
-      <div>
-        {currentResume && (
-          <iframe
-            src={currentResume}
-            className="resume-container"
-            title="Ryan Skog Resume"
-          />
-        )}
-      </div>
+      <>
+        <Navbar />
+        <div>
+          {currentResume && (
+            <iframe
+              src={currentResume}
+              className="resume-container"
+              title="Ryan Skog Resume"
+            />
+          )}
+        </div>
+      </>
     );
   }
 }

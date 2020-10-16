@@ -6,22 +6,33 @@ header h1 {
   font-family: "Quicksand", sans-serif;
 }
 
-header h1:hover,
+header .name-hover:hover,
 i:hover {
   color: #ff9933;
   text-shadow: 0 0 3px #ffee10;
 }
 
 .navbar {
-  float: right;
+  width: 100%;
 }
 
 .navbar ul li {
   margin: 0 15px;
+  z-index: 100;
+}
+
+#collapsibleNavbar {
+  justify-content: flex-end;
 }
 
 .header-icons {
   margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 40px;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -34,7 +45,6 @@ i:hover {
 
   header h1 {
     line-height: 58px;
-    font-size: 32px;
   }
 
   .header-icons {
@@ -44,7 +54,7 @@ i:hover {
 
 @media only screen and (max-width: 375px) {
   header h1 {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .header-icons {

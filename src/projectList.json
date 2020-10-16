@@ -112,7 +112,7 @@
   {
     "id": 11,
     "name": "Study Check",
-    "link": "https://whispering-wave-08887.herokuapp.com/",
+    "link": "https://study-check.herokuapp.com/",
     "image": "../assets/Images/study.png",
     "alt": "Graduation Cap",
     "github": "https://github.com/raskog1/study-check",
