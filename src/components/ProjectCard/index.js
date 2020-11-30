@@ -1,36 +1,48 @@
-import React from "react";
-import "./style.css";
+import React, { useState } from "react";
 
-// Function to format Contributors with commas
 function ProjectCard({
   project: { contributors, link, alt, image, name, github, description },
   slider,
 }) {
-  function listContributors(arr) {
-    let formatContributors = [];
-    for (let i = 0; i < arr.length - 1; i++) {
-      formatContributors.push(`${arr[i]}, `);
-    }
-    formatContributors.push(arr[arr.length - 1]);
-    return formatContributors;
-  }
+  // Hook to execute a hover color effect for the entire card when only
+  // hovering over the image
+  const [accentColor, setAccentColor] = useState("#17a2b8");
+
+  // Initial styling for the card
+  const cardColor = {
+    border: `2px solid ${accentColor}`,
+    color: accentColor,
+  };
 
   // Function to only display Contributors if there are any
   function hideEmpty() {
     if (contributors.length > 0) {
       return (
-        <p className="contributors">
-          Contributors: {listContributors(contributors)}
-        </p>
+        <p className="contributors">Contributors: {contributors.join(", ")}</p>
       );
     }
   }
 
   return (
     <div className="col-12" className={slider}>
-      <div className="card text-center">
-        <a href={link} rel="noopener noreferrer" target="_blank">
-          <img className="card-image" src={image} alt={alt} />
+      <div className="card text-center" style={cardColor}>
+        <a
+          className="card-link"
+          href={link}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <img
+            className="card-image"
+            src={image}
+            alt={alt}
+            onMouseEnter={() => {
+              setAccentColor("#ff9933");
+            }}
+            onMouseLeave={() => {
+              setAccentColor("#17a2b8");
+            }}
+          />
         </a>
         <div className="card-img-overlay">
           <h4 className="card-title">

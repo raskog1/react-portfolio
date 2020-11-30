@@ -6,7 +6,7 @@ function Profile() {
     <div className="row">
       <div className="col-lg-12 profile-wrapper">
         <img
-          src="/assets/Images/trophy.png"
+          src="/assets/Images/headshot.png"
           className="profile-image slider3"
           alt="Ryan Skog"
           width="250px"
