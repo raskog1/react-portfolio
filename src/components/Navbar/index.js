@@ -42,9 +42,15 @@ function RespNavbar() {
             >
               <i className="fa fa-github fa-2x" aria-hidden="true" />
             </Nav.Link>
-            <Nav.Link href="/resume">Resume</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link as={Link} to="/resume">
+              Resume
+            </Nav.Link>
+            <Nav.Link as={Link} to="/projects">
+              Projects
+            </Nav.Link>
+            <Nav.Link as={Link} to="/contact">
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
