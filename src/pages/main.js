@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Profile from "../components/Profile";
 import ProjectSection from "../components/ProjectSection";
 import CodingLinkSection from "../components/CodingLinkSection";
@@ -15,7 +14,6 @@ function Main() {
 
   return (
     <>
-      <Navbar />
       <div className="container">
         {/* Row containing main bio section and aside */}
         <div className="row">

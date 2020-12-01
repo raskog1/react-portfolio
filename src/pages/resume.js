@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import currentResume from "../pdf/resume.pdf";
 
 class Resume extends React.Component {
   render() {
     return (
       <>
-        <Navbar />
         <div>
           {currentResume && (
             <iframe

@@ -12,15 +12,6 @@ i:hover {
   text-shadow: 0 0 3px #ffee10;
 }
 
-.navbar {
-  width: 100%;
-}
-
-.navbar ul li {
-  margin: 0 15px;
-  z-index: 100;
-}
-
 #collapsibleNavbar {
   justify-content: flex-end;
 }
