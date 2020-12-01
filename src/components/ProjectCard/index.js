@@ -24,7 +24,7 @@ function ProjectCard({
   }
 
   return (
-    <div className="col-12" className={slider}>
+    <div className={slider}>
       <div className="card text-center" style={cardColor}>
         <a
           className="card-link"

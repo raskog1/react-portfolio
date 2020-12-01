@@ -94,7 +94,7 @@
     "image": "../assets/Images/budgetChart.png",
     "alt": "Line chart",
     "github": "https://github.com/raskog1/offline-budget-tracker",
-    "description": "No need to sweat your budget when travelling, this handy app works on or offline using service workers, indexDB, and caching to provide peace of mind.",
+    "description": "No need to sweat your budget when travelling, this handy app works on or offline using service workers, indexedDB, and caching to provide peace of mind.",
     "contributors": [],
     "featured": false
   },
