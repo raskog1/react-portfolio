@@ -1,7 +1,6 @@
 header h1 {
   font-size: 48px;
   color: #17a2b8;
-  text-indent: 20px;
   display: inline-block;
   font-family: "Quicksand", sans-serif;
 }
@@ -24,18 +23,19 @@ i:hover {
   header h1 {
     font-size: 40px;
   }
+
+  /* Prevents header resizing when name is a link */
+  .name-link {
+    padding: 0;
+  }
 }
 
 @media only screen and (max-width: 640px) {
-  /*Normalizes header height to same height as condensed navbar*/
+  /* Normalizes header height to same height as condensed navbar */
   header {
     position: relative;
     height: 58px;
     z-index: 1020;
-  }
-
-  header h1 {
-    line-height: 58px;
   }
 
   .header-icons {
