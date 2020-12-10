@@ -24,6 +24,11 @@
   pointer-events: none;
 }
 
+.github {
+  /* Reinstating pointer event for github link in each project card */
+  pointer-events: all;
+}
+
 .description,
 .contributors {
   font-size: 14px;
