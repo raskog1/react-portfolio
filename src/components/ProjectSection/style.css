@@ -20,6 +20,8 @@
 .card-img-overlay {
   margin-left: 200px;
   text-align: left;
+  /* Allows clicking of link in mobile so overlay doesn't hide it */
+  pointer-events: none;
 }
 
 .description,

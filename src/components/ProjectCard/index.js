@@ -44,7 +44,7 @@ function ProjectCard({
             }}
           />
         </a>
-        <div className="card-img-overlay">
+        <div className="card-img-overlay" style={{ color: accentColor }}>
           <h4 className="card-title">
             <strong>{name}</strong>
           </h4>
