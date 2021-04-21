@@ -12,7 +12,7 @@ function RespNavbar() {
       return <h1>Ryan Skog</h1>;
     } else {
       return (
-        <Nav.Link as={Link} to="/" className="name-link">
+        <Nav.Link as={Link} to="/" className="name-link" style={{ padding: 0 }}>
           <h1 className="name-hover">Ryan Skog</h1>
         </Nav.Link>
       );
