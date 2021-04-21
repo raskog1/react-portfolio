@@ -8,13 +8,11 @@ import Resume from "./pages/resume";
 import Contact from "./pages/contact";
 
 // Import global components
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <Switch>
         <Route exact path="/" component={Main} />
         <Route path="/resume" component={Resume} />
