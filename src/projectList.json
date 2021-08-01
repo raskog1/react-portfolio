@@ -118,7 +118,7 @@
     "github": "https://github.com/raskog1/study-check",
     "description": "Every school needs a central hub of communication where information can reliably be delivered. Study Check is a full MERN application that solves this issue for everyone.",
     "contributors": ["Alexandra Noto", "Anthony Simone", "Scott Glover"],
-    "featured": true
+    "featured": false
   },
   {
     "id": 12,
@@ -128,6 +128,28 @@
     "alt": "Books on a shelf",
     "github": "https://github.com/raskog1/book-search",
     "description": "Create your own bookshelf of titles you want to keep track of, or create an orderly backlist of titles to read. This MERN application will do the organization, all you have to do is search and add.",
+    "contributors": [],
+    "featured": true
+  },
+  {
+    "id": 13,
+    "name": "The Threadery",
+    "link": "https://the-threadery.herokuapp.com/",
+    "image": "../assets/Images/embroidery.png",
+    "alt": "Embroidered flower",
+    "github": "https://github.com/raskog1/The-Threadery",
+    "description": "Having trouble keeping track of your threads and yarns?  Manage a dynamic inventory, explore color and thread options, and create a shopping list with The Threadery MERN stack thread tracker.",
+    "contributors": [],
+    "featured": true
+  },
+  {
+    "id": 14,
+    "name": "Learning Portal",
+    "link": "https://code-learning-portal.herokuapp.com/",
+    "image": "../assets/Images/code.png",
+    "alt": "Coding logos for html, css, javascript, and react",
+    "github": "https://github.com/raskog1/learning-portal",
+    "description": "With this MERN stack application, test your coding knowledge with multiple choice coding quizes, and engage in discussion on Learning Portal's message boards.",
     "contributors": [],
     "featured": true
   }

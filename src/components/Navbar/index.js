@@ -20,6 +20,7 @@ function RespNavbar() {
   };
 
   const outsideClick = (e) => {
+    e.stopPropagation();
     const dropdown = document.getElementById("dropdown");
     if (e.target !== dropdown && !dropdown.contains(e.target)) {
       console.log("clicked out");
